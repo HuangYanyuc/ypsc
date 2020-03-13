@@ -233,6 +233,85 @@ a.head_right_a:hover{
   right:0px;
   text-align: right;
 }
+.right_xfk{
+  position:fixed;
+  right:0;
+  z-index: 400;
+  height:100%;
+  background-color: #333;
+  width:30px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right_xfk>nav{
+
+}
+._xfk_tubiao{
+  display: inline-block;
+  width:30px;
+  height:38px;
+  text-align: center;
+  padding-top:7px;
+}
+._xfk_tubiao:hover,._xfk_jianyi:hover{
+  background:#ff6600
+}
+._xfk_tubiao:first-child:hover>a{
+  background-position: -33px 0;
+}
+._xfk_tubiao>a,._xfk_tubiao>a>span{
+  width:20px;height:20px;
+  display: inline-block;
+  background: url(../img/ibar_sprites-2.0.0.png);
+}
+._xfk_tubiao:nth-child(2)>a{
+  background-position: 0 -175px;
+}
+._xfk_tubiao:nth-child(2):hover>a{
+  background-position: -33px -175px;
+}
+._xfk_tubiao:nth-child(3){
+  display: block;
+  height:133px;
+  margin:10px 0;
+  border:1px solid #666;
+}
+._xfk_tubiao:nth-child(3)>a{
+  background:none;
+}
+._xfk_tubiao>a>span{
+  background-position: 0 -29px;
+}
+._xfk_tubiao:hover>a>span{
+  background-position: -33px -29px;
+}
+._xfk_tubiao:nth-child(3) p:nth-child(2){
+  color:#fff;
+  font-size: 12px;
+  margin-bottom:10px;
+}
+._xfk_tubiao:nth-child(3) .badge-yp{
+  width:21px;height:21px;
+  border-radius: 50%;
+  line-height: 21px;
+  padding:0;
+}
+._xfk_tubiao:nth-child(4)>a{
+  background-position: 0 -57px;
+  margin-left:6px;
+}
+._xfk_tubiao:nth-child(4):hover>a{
+  background-position: -33px -57px;
+}
+._xfk_tubiao:nth-child(5)>a{
+  background-position:0 -367px;
+  margin-right:3px;
+}
+._xfk_tubiao:nth-child(5):hover>a{
+  background-position: -28px -367px;
+}
 @media (max-width:1199.9999px){
   .head_head>div{
     width:990px;
